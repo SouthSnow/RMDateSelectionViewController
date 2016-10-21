@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  s.author             = { "pangfuli" => "pflnh2011@gmail.com" }
+  s.author             = { "pangfuli" => "pflnh@163.com" }
  
 
   s.platform     = :ios
@@ -29,8 +29,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "RMDateSelectionViewController"
   s.exclude_files = "RMDateSelectionViewController/Exclude"
-
-  s.ios.frameworks = "UIKit", "Foundation", "AudioToolbox"
 
   s.requires_arc = true
 
